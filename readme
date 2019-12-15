@@ -1,0 +1,11 @@
+A aplicação é composta pela solução Santander e por 4 projetos
+
+CA_Sync -  como missão sincronizar noticias novas verificando que o serviço esta em cima e verificar se existem atualizações pelo max news, e grava para ficheiros as novas noticias.
+É objketivo que isto seja um serviço em background a correr
+
+PingS - Verificar que serviço esta em cima
+
+WAPI - Api para retorno do top 20 de noticias, verificando se ja existe a noticia localmente ou apenas online e grava para local
+
+Ficou para fazer bastante coisa, tal como um purge de dados, acabar o processo de sincronização e a criação de Testes para a aplicação.
+E mais algumas coisas, colocando estas no top dos TODO
