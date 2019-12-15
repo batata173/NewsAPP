@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DB\MAX.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DB\MAX.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\News\News.csproj" />
+    <ProjectReference Include="..\PingS\PingS.csproj" />
+  </ItemGroup>
+
+</Project>
